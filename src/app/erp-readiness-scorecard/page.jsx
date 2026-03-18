@@ -10,7 +10,7 @@ const ERPReadinessScorecard = () => {
   const [contactInfo, setContactInfo] = useState({ name: '', email: '', company: '', phone: '' });
   const [showResults, setShowResults] = useState(false);
   const [expandedSection, setExpandedSection] = useState(null);
-
+ 
   const questions = [
     {
       id: 'monthEnd',
